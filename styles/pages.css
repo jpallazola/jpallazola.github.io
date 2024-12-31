@@ -1,0 +1,48 @@
+/* General reset */
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #333; /* Dark background */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Spacing inside the navbar */
+    position: fixed; /* Stick to the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* On top of other content */
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Align items horizontally */
+    justify-content: flex-start; /* Align links to the left */
+  }
+  
+  .nav-links li {
+    margin: 0 20px; /* Spacing between items */
+  }
+  
+  .nav-links a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: color 0.3s; /* Smooth hover effect */
+  }
+  
+  .nav-links a:hover {
+    color: #ff9800; /* Change color on hover */
+  }
+  
+  /* Content padding to avoid overlap with fixed navbar */
+  .content {
+    margin-top: 60px; /* Adjust based on navbar height */
+  }
+  
