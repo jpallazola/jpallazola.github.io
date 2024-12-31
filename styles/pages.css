@@ -5,34 +5,34 @@ body, ul {
     box-sizing: border-box;
   }
   
+  /* Black outline */
   .black-outline {
     width: 100%;
     border: 2px solid black; /* Black border */
-    padding: 10px; /* Add spacing inside the outline */
     box-sizing: border-box; /* Ensure padding is inside the border */
   }
-
+  
   /* Navbar styling */
   .navbar {
-    background-color: #333; /* Dark background */
+    background-color: #333; /* Dark background for the navbar */
     color: white; /* Text color */
-    padding: 10px 20px; /* Spacing inside the navbar */
-    position: fixed; /* Stick to the top */
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* On top of other content */
+    height: 80px; /* Increase height for a wider navbar */
+    display: flex; /* Enable flexbox for vertical alignment */
+    align-items: center; /* Center text vertically */
+    padding: 0 20px; /* Add horizontal padding for spacing */
   }
   
   /* Navigation links */
   .nav-links {
-    list-style-type: none; /* Remove bullets */
-    display: flex; /* Align items horizontally */
+    list-style-type: none;
+    display: flex; /* Align links horizontally */
     justify-content: flex-start; /* Align links to the left */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
   }
   
   .nav-links li {
-    margin: 0 20px; /* Spacing between items */
+    margin: 0 20px; /* Space between links */
   }
   
   .nav-links a {
@@ -41,15 +41,14 @@ body, ul {
     font-size: 18px;
     font-family: Arial, sans-serif;
     cursor: pointer; /* Pointer cursor for interactivity */
-    transition: color 0.3s; /* Smooth hover effect */
   }
   
   .nav-links a:hover {
     color: #ff9800; /* Change color on hover */
   }
   
-  /* Content padding to avoid overlap with fixed navbar */
+  /* Content padding to avoid overlap with the fixed navbar */
   .content {
-    margin-top: 60px; /* Adjust based on navbar height */
+    margin-top: 100px; /* Adjust based on navbar height + outline */
   }
   
