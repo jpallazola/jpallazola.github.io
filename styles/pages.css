@@ -9,10 +9,10 @@ body, ul {
   .navbar {
     background-color: #333; /* Dark background for the navbar */
     color: white; /* Text color */
-    height: 120px; /* Increase height for a wider navbar */
+    height: 100px; /* Increase height for a wider navbar */
     display: flex; /* Enable flexbox for vertical alignment */
     align-items: center; /* Center text vertically */
-    padding: 0 12px; /* Add horizontal padding for spacing */
+    padding: 0 10px; /* Add horizontal padding for spacing */
   }
   
   /* Navigation links */
