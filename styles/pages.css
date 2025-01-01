@@ -5,13 +5,6 @@ body, ul {
     box-sizing: border-box;
   }
   
-  /* Black outline */
-  .black-outline {
-    width: 100%;
-    border: 2px solid black; /* Black border */
-    box-sizing: border-box; /* Ensure padding is inside the border */
-  }
-  
   /* Navbar styling */
   .navbar {
     background-color: #333; /* Dark background for the navbar */
