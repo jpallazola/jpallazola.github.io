@@ -27,8 +27,8 @@ body, ul {
     list-style-type: none;
     display: flex; /* Align links horizontally */
     justify-content: flex-start; /* Align links to the left */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0; 
+    padding: 0; 
   }
   
   .nav-links li {
@@ -38,7 +38,7 @@ body, ul {
   .nav-links a {
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
-    font-size: 18px;
+    font-size: 24px;
     font-family: Arial, sans-serif;
     cursor: pointer; /* Pointer cursor for interactivity */
   }
