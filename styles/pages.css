@@ -12,7 +12,7 @@ body, ul {
     height: 120px; /* Increase height for a wider navbar */
     display: flex; /* Enable flexbox for vertical alignment */
     align-items: center; /* Center text vertically */
-    padding: 0 15px; /* Add horizontal padding for spacing */
+    padding: 0 12px; /* Add horizontal padding for spacing */
   }
   
   /* Navigation links */
